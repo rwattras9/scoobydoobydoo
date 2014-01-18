@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/node/bin/node', '/opt/node/bin/npm', 'install' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 warn package.json RasPi.TV@0.0.1 No description
+5 warn package.json RasPi.TV@0.0.1 No repository field.
+6 warn package.json RasPi.TV@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/pi/app', [ 'express', 'socket.io', 'omxcontrol' ] ]
+9 info preinstall RasPi.TV@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'express@3.1.1', null ]
+12 verbose cache add name=undefined spec="express@3.1.1" args=["express@3.1.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express@3.1.1',
+13 verbose parsed url   path: 'express@3.1.1',
+13 verbose parsed url   href: 'express@3.1.1' }
+14 verbose cache add name="express" spec="3.1.1" args=["express","3.1.1"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '3.1.1',
+15 verbose parsed url   path: '3.1.1',
+15 verbose parsed url   href: '3.1.1' }
+16 verbose addNamed [ 'express', '3.1.1' ]
+17 verbose addNamed [ '3.1.1', '3.1.1' ]
+18 verbose cache add [ 'socket.io@0.0.14', null ]
+19 verbose cache add name=undefined spec="socket.io@0.0.14" args=["socket.io@0.0.14",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'socket.io@0.0.14',
+20 verbose parsed url   path: 'socket.io@0.0.14',
+20 verbose parsed url   href: 'socket.io@0.0.14' }
+21 verbose cache add name="socket.io" spec="0.0.14" args=["socket.io","0.0.14"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '0.0.14',
+22 verbose parsed url   path: '0.0.14',
+22 verbose parsed url   href: '0.0.14' }
+23 verbose addNamed [ 'socket.io', '0.0.14' ]
+24 verbose addNamed [ '0.0.14', '0.0.14' ]
+25 verbose cache add [ 'omxcontrol@*', null ]
+26 verbose cache add name=undefined spec="omxcontrol@*" args=["omxcontrol@*",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'omxcontrol@*',
+27 verbose parsed url   path: 'omxcontrol@*',
+27 verbose parsed url   href: 'omxcontrol@*' }
+28 verbose cache add name="omxcontrol" spec="*" args=["omxcontrol","*"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '*',
+29 verbose parsed url   path: '*',
+29 verbose parsed url   href: '*' }
+30 verbose addNamed [ 'omxcontrol', '*' ]
+31 verbose addNamed [ null, '*' ]
+32 silly lockFile e7d16cae-express-3-1-1 express@3.1.1
+33 verbose lock express@3.1.1 /home/pi/.npm/e7d16cae-express-3-1-1.lock
+34 silly lockFile 0537c9f1-socket-io-0-0-14 socket.io@0.0.14
+35 verbose lock socket.io@0.0.14 /home/pi/.npm/0537c9f1-socket-io-0-0-14.lock
+36 silly lockFile 83d02d0b-omxcontrol omxcontrol@*
+37 verbose lock omxcontrol@* /home/pi/.npm/83d02d0b-omxcontrol.lock
+38 silly addNameRange { name: 'omxcontrol', range: '*', hasData: false }
+39 verbose url raw socket.io/0.0.14
+40 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io/0.0.14' ]
+41 verbose url resolved https://registry.npmjs.org/socket.io/0.0.14
+42 info trying registry request attempt 1 at 00:53:38
+43 http GET https://registry.npmjs.org/socket.io/0.0.14
+44 verbose url raw express/3.1.1
+45 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.1.1' ]
+46 verbose url resolved https://registry.npmjs.org/express/3.1.1
+47 info trying registry request attempt 1 at 00:53:38
+48 verbose etag "C8P2BILNC8XSYG7T3QIDR1VWU"
+49 http GET https://registry.npmjs.org/express/3.1.1
+50 verbose url raw omxcontrol
+51 verbose url resolving [ 'https://registry.npmjs.org/', './omxcontrol' ]
+52 verbose url resolved https://registry.npmjs.org/omxcontrol
+53 info trying registry request attempt 1 at 00:53:38
+54 verbose etag "7R27H9FJ1B0BOAREP9WL5UACT"
+55 http GET https://registry.npmjs.org/omxcontrol
+56 http 404 https://registry.npmjs.org/socket.io/0.0.14
+57 silly registry.get cb [ 404,
+57 silly registry.get   { date: 'Sat, 18 Jan 2014 00:53:39 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+57 silly registry.get     etag: '"AMG72YFDC1LDX7NEXUQAOKLLI"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'cache-control': 'max-age=0',
+57 silly registry.get     'content-length': '37',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '0',
+57 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+57 silly registry.get     'x-cache': 'MISS',
+57 silly registry.get     'x-cache-hits': '0',
+57 silly registry.get     'x-timer': 'S1390006419.200733662,VS0,VE66',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 silly lockFile 0537c9f1-socket-io-0-0-14 socket.io@0.0.14
+59 silly lockFile 0537c9f1-socket-io-0-0-14 socket.io@0.0.14
+60 http 304 https://registry.npmjs.org/omxcontrol
+61 silly registry.get cb [ 304,
+61 silly registry.get   { date: 'Sat, 18 Jan 2014 00:53:39 GMT',
+61 silly registry.get     server: 'Apache',
+61 silly registry.get     connection: 'Keep-Alive',
+61 silly registry.get     'keep-alive': 'timeout=10, max=50',
+61 silly registry.get     etag: '"7R27H9FJ1B0BOAREP9WL5UACT"',
+61 silly registry.get     vary: 'Accept' } ]
+62 verbose etag omxcontrol from cache
+63 http 304 https://registry.npmjs.org/express/3.1.1
+64 silly registry.get cb [ 304,
+64 silly registry.get   { date: 'Sat, 18 Jan 2014 00:53:39 GMT',
+64 silly registry.get     server: 'Apache',
+64 silly registry.get     connection: 'Keep-Alive',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     etag: '"C8P2BILNC8XSYG7T3QIDR1VWU"',
+64 silly registry.get     vary: 'Accept' } ]
+65 verbose etag express/3.1.1 from cache
+66 error Error: version not found: 0.0.14 : socket.io/0.0.14
+66 error     at RegClient.<anonymous> (/opt/node/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+66 error     at Request.self.callback (/opt/node/lib/node_modules/npm/node_modules/request/request.js:129:22)
+66 error     at Request.EventEmitter.emit (events.js:98:17)
+66 error     at Request.<anonymous> (/opt/node/lib/node_modules/npm/node_modules/request/request.js:873:14)
+66 error     at Request.EventEmitter.emit (events.js:117:20)
+66 error     at IncomingMessage.<anonymous> (/opt/node/lib/node_modules/npm/node_modules/request/request.js:824:12)
+66 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+66 error     at _stream_readable.js:920:16
+66 error     at process._tickCallback (node.js:415:13)
+67 error If you need help, you may report this log at:
+67 error     <http://github.com/isaacs/npm/issues>
+67 error or email it to:
+67 error     <npm-@googlegroups.com>
+68 error System Linux 3.10.25+
+69 error command "/opt/node/bin/node" "/opt/node/bin/npm" "install"
+70 error cwd /home/pi/app
+71 error node -v v0.10.22
+72 error npm -v 1.3.14
+73 verbose exit [ 1, true ]
